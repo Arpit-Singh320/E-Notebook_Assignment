@@ -14,6 +14,9 @@ from pathlib import Path
 import environ
 import os
 
+# Define the BASE_DIR for the project
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 # Specify a directory where the static files will be collected
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
