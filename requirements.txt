@@ -6,4 +6,5 @@ django-environ==0.10.0
 whitenoise==6.5.0
 Pillow==10.0.1
 django-environ==0.10.0
+whitenoise
 
